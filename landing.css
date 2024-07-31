@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+}
+.a:hover{
+    color:aliceblue ;
+}
+.logo{
+    color:white;
+    font-size: 10vmin;
+    background-color: rgb(56, 18, 29);
+
+}
+ul{
+    list-style: none;
+}
+
+boby,html{
+    overflow-x: hidden ;
+}
+.back{
+    background-color: rgb(232, 229, 160);
+}
+.active{
+    color:white;
+    padding: 8px 15px;
+    font-weight: bolder;
+    background: rgb(56, 18, 29);
+    border-radius: 30px;
+}
+.active:hover{
+    color:rgb(56, 18, 29);
+    font-weight:bold;
+    padding: 8px 15px;
+    background:white;
+    border-radius: 30px;
+}
+
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    text-align: inline;
+    padding: 20px;
+    color:black;
+
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+}
+.nav-link li{
+    margin: 0 10px;
+}
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("img1.jpg");
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.header-content{
+    margin-bottom: 150px;
+    color:white;
+    text-align: center;
+}
+.header-content h2{
+    font-size: 5vmin;
+}
+
+.line{
+    width: 350px;
+    height: 5px;
+    background: rgb(56, 18, 29);
+    margin: 10px auto;
+    border-radius: 5px;
+}
+.header-content h1{
+    font-size:6vmin;
+    margin-top: 10px;
+    margin-bottom:40px;
+}
+section{
+    width:80%;
+    margin: 80px auto;
+}
+marquee{
+  padding-top:10px ;
+  padding-bottom:auto ;
+  background-color: rgb(56, 18, 29);
+  color:whitesmoke;
+  height: 50px;
+
+}
+.about h1{
+    font-size:5vmin;
+    color:rgb(56, 18, 29);
+    
+}
+.about p{
+    font-size:3vmin;
+}
+.title{
+    text-align:center;
+    font-size: 5  vmin;
+    color:rgb(56, 18, 29);
+}
+.row{
+    display:flex;
+    align-items:center;
+    width:100%;
+    justify-content:space-between;
+}
+.row .col img{
+    width: 80%;
+}
+.row .col{
+    text-align: center;
+}
+h4{
+    font-size:3.5vmin;
+    color:rgb(56, 18, 29);
+    margin: 10px auto;
+    text-align: auto;
+}
+.event{
+    margin-top: 30px;
+}
+.footer{
+    width:100%;
+    min-height:200px;
+    padding:20px ;
+    margin: 0;
+    background-color: rgb(56, 18, 29);
+    text-align: center;
+}
+.footer p{
+    color:white;
+    margin: 20px auto;
+    padding:auto;
+}
